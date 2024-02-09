@@ -2,11 +2,16 @@
 
 
 ### Step 1: MLOps on Sagemaker to deploy Llama-2
-a) Install Sagemaker on this Notebook Instance
-b) Create Sagemaker session, assign buckets and print session details
-c) Get Hugging Face model (Llama-2) from Deep Learning Containers (DLC)
-d) Set necessary configs to use Hugging Face model
+a) Install Sagemaker on this Notebook Instance.
+
+b) Create Sagemaker session, assign buckets and print session details.
+
+c) Get Hugging Face model (Llama-2) from Deep Learning Containers (DLC).
+
+d) Set necessary configs to use Hugging Face model.
+
 e) Deploy the Llama-2-7b-chat-hf model.
+
 f) Give Prompt to Llama-2 to get outputs.
 
 
