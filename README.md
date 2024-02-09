@@ -23,12 +23,18 @@ a) *Prompt Engineering (first trying different apporaches with fixed custom para
 We will see the various approaches used in Prompt Engineering and compare the output for each of them.*
 
 Chain of Thoughts (CoT): A sequential reasoning approach where the solution to a complex problem is derived through a series of logical steps.
+
 Tree of Thoughts (ToT): A hierarchical reasoning method that organizes thoughts in a tree-like structure to explore different facets or solutions of a problem.
+
 Autoregressive Template (ART): A template-driven approach that generates text by building on previous outputs in a stepwise manner, enhancing coherence and contextuality.
+
 Reasoning-Aided Conversation Template (ReACT): Combines conversational context with explicit reasoning steps to produce responses that are both engaging and logically structured.
+
 Self-Consistency (SC): A method focused on generating multiple answers and then refining or choosing between them based on consistency and coherence criteria.
+
 Retrieval-Augmented Generation (RAG): Integrates external knowledge or data into the generation process to inform and enhance the quality and relevance of the output.
 
+***
 
 b) *Prompt Engineering (second trying different apporaches with varying parameters)*
 We will see the various approaches used in Prompt Engineering and compare the output for each of them. We try different payloads for ART, Self Consistency and RAG.
@@ -49,8 +55,11 @@ repetition_penalty: This parameter is used to discourage the model from repeatin
 
 Together, these parameters offer a nuanced control over the text generation process, allowing users to fine-tune the model's behavior to match specific requirements for creativity, diversity, length, and coherence of the generated text.
 
+***
 
 c) *Final Conclusion*
+
 For the task fo vacation planning, when inputting basic promts of various type, the best permance was for: ART, Self Consistency and RAG.
+
 For the task fo vacation planning, when inputting basic promts of various type, the better outputs were generated was when: increase top_k increase top_p and decrease temperature.
 
