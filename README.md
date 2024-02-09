@@ -14,6 +14,8 @@ e) Deploy the Llama-2-7b-chat-hf model.
 
 f) Give Prompt to Llama-2 to get outputs.
 
+___________________________________________________________________________________________________________________
+
 
 ### Step 2: Prompt Engineering for Vacation Management, with prompts related to "what to do when tired or confused?"
 
